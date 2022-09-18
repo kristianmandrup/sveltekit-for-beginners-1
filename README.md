@@ -2,6 +2,8 @@
 
 Learn full stack web development with SvelteKit.
 
+Updated to Sveltekit `next@484` using [form actions](https://kit.svelte.dev/docs/form-actions)
+
 ## Project Setup
 
 🧑‍🤝‍🧑 Clone the project
