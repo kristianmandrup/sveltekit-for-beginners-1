@@ -25,3 +25,8 @@ export const DELETE: Action = async ({ request }) => {
 	await removeTweet(request)
 	return { location: '/home' }
 }
+
+export const actions = {
+	addTweet: POST,
+	removeTweet: DELETE,
+}

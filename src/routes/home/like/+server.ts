@@ -10,3 +10,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		},
 	})
 }
+
+export const actions = {
+	likeTweet: POST,
+}

@@ -3,7 +3,7 @@
 </script>
 
 <div class="error">
-	<h1>{$page.status}: {$page.error.message}</h1>
+	<h1>{$page.status}: {$page?.error?.message}</h1>
 	<img src="/dancing.webp" alt="Person dancing" />
 </div>
 

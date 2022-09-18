@@ -34,7 +34,7 @@
 
 			<div class="actions">
 				<form
-					action="/home/like"
+					action="?/likeTweet"
 					method="post"
 					use:enhanceForm
 				>
@@ -78,7 +78,7 @@
 				</a>
 
 				<form
-					action="/home?_method=delete"
+					action="?/removeTweet"
 					method="post"
 					use:enhanceForm
 				>
